@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "My React project",
-"homepage": "https://https://serhiykit.github.io/portfolio",
+  "homepage": "https://https://serhiykit.github.io/portfolio",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
@@ -24,8 +24,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "run": "webpack serve --mode development --open",
-    "run build": "webpack --mode production",
+    "deploy": "gh-pages -d public",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -50,11 +49,11 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "node-sass": "^7.0.3",
     "sass": "^1.69.0",
     "sass-loader": "^13.3.2",
     "style-loader": "^3.3.3",
-    "webpack": "^5.88.2",
-    "gh-pages": "^3.2.3"
+    "webpack": "^5.88.2"
   }
 }
