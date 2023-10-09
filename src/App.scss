@@ -1,0 +1,11 @@
+.App {
+  display: flex;
+  height: 100vh;
+  background: transparent;
+  color: rgb(255, 255, 255);
+
+  &_screen {
+    flex: 1;
+    padding: 15px;
+  }
+}
